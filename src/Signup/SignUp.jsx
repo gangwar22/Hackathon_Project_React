@@ -1,7 +1,7 @@
 // SignUp.jsx
 import { useState } from 'react';
 import axios from 'axios';
-import './SignUp.css'; 
+import './SignUp.css';
 import { Link, useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
@@ -56,7 +56,7 @@ const SignUp = () => {
             <input type="password" name="password" value={formData.password} onChange={handleChange} required/>
             <label>Password</label>
           </div>
-          <button type="submit" className="btn">Signup</button>
+          <Link to="/signup" className="main-btn">Sign Up</Link>
           <div className="signup-link">
             <p>Already have an account? <Link to="/login">Login</Link></p>
           </div>

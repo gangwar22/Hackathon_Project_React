@@ -10,7 +10,7 @@ import image5 from './assets/img-3.jpg';
 import image6 from './assets/img-4.jpg';
 import image7 from './assets/img-005.jpg';
 
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 
 const App = () => {
   const count1Ref = useRef(null);
