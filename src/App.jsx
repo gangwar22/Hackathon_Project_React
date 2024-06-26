@@ -41,7 +41,10 @@ const App = () => {
                   <a className="nav-link" href="#faq">FAQ</a>
                 </li>
                 <li>
-                  <button className="main-btn">1200 345 123</button>
+                  <button className="main-btn">Sign Up</button>
+                </li>
+                <li>
+                  <button className="main-btn"><i class="fa-regular fa-heart"></i></button>
                 </li>
               </ul>
             </div>
