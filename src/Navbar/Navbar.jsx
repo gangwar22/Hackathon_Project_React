@@ -1,5 +1,5 @@
 import "./Navbar.css"
-
+import image10 from "../assets/magnifying-glass.png";
 
 function Navbar() {
   return (
