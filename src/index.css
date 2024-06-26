@@ -226,14 +226,6 @@ p {
   box-shadow: none;
   margin-left:0.625rem;
 } 
-.fav-btn{
-  padding:0.3125rem 0.4375rem;
-  box-shadow: none;
-  margin-left:0.625rem;
-  font-size: 1000;
-  background-color: lightcoral;
-
-}
 
 /* Change navbar styling on scroll */
 
