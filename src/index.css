@@ -559,11 +559,23 @@ Responsive Design===
 
 @media (max-width:330px) {
 
-  /* carousel design */
   .testimonial-section .carousel-item{
       padding:13rem 3.125rem;
   }
    
 }
+#contact{
+  background-image: url(./assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+  background-size: cover;
+  color: white;
+}
+#faq{
+  background-image: url(./assets/Contact-background.jpg);
+  background-size: cover;
+}
+.faq-box{
+  background-color: white;
+}
+
       
     
