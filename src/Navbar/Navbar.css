@@ -1,0 +1,73 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container */
+  .App {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  .navigation-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #b21841;
+    font-weight: bold;
+  }
+  
+  .contact-number {
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: #b21841;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navigation-wrap {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-link {
+      margin: 10px 0;
+    }
+  
+    .contact-number {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  
